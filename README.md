@@ -13,6 +13,6 @@
 ## 提取主题声明
 该主题与本为付费主题，主题包为欲归来南枝提取，使用时请勿过渡泛滥甚至倒卖主题提取方式与提取的主题包，如果造成后果严重，可能导致官方修改主题缓存与应用逻辑导致无法继续提取与使用。
 
-更多[资源](https://www.123pan.com/s/uQ69jv-FX6Q3.html)  
+[更多资源](https://www.123pan.com/s/uQ69jv-FX6Q3.html)   
 <提取码= "nzbm">
-[资源合集](yuguilai.ysupan.com)
+[资源合集](https://yuguilai.ysupan.com) 
