@@ -1,5 +1,4 @@
-# QQ-theme-replacement 
-## QQ主题替换
+# QQ主题替换
 
 思路和资源 by [欲归来南枝](https://space.bilibili.com/1495315743)
 脚本制作 by [zmal/梦断忆-](https://space.bilibili.com/554419861)
