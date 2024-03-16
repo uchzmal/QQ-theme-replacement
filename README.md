@@ -1,8 +1,19 @@
-# QQ-theme-replacement
-QQ主题替换
+# QQ-theme-replacement 
+## QQ主题替换
+
 思路和资源 by [欲归来南枝](https://space.bilibili.com/1495315743)
 脚本制作 by [zmal/梦断忆-](https://space.bilibili.com/554419861)
 
-更多[资源](https://www.123pan.com/s/uQ69jv-FX6Q3.html)
+【总纲】
+找到QQ系统级data数据目录（即Mt管理器提取安装包时的数据目录1）→
+找到QQ主题缓存文件夹→
+随便应用主题，将此主题作为准备替换的主题→
+删除此主题二级/三级文件夹包括压缩包里面的文件，将下载的文件移动过去→
+停止运行QQ→应用成功 重新打开即可
+
+【提取主题声明】
+该主题与本为付费主题，主题包为欲归来南枝提取，使用时请勿过渡泛滥甚至倒卖主题提取方式与提取的主题包，如果造成后果严重，可能导致官方修改主题缓存与应用逻辑导致无法继续提取与使用。
+
+更多[资源](https://www.123pan.com/s/uQ69jv-FX6Q3.html) 
 <提取码= "nzbm">
-<资源合集"yuguilai.ysupan.com"> 
+<资源合集"yuguilai.ysupan.com">  
