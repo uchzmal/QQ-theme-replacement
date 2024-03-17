@@ -10,11 +10,11 @@ sleep 5
 mkdir -p 0
 
 # 使用curl下载文件
-curl -O https://github.com/uchzmal/QQ-theme-replacement/raw/main/%E7%AC%AC5%E6%9C%9F-SVIP%E4%B8%93%E5%B1%9E%E8%B6%85%E7%BA%A7%E4%B8%BB%E9%A2%98%E3%80%90QQ%E4%B8%BB%E9%A2%98%E3%80%91.zip  
+curl -O https://github.com/uchzmal/QQ-theme-replacement/raw/main/%E7%AC%AC5%E6%9C%9F-SVIP%E4%B8%93%E5%B1%9E%E8%B6%85%E7%BA%A7%E4%B8%BB%E9%A2%98%E3%80%90QQ%E4%B8%BB%E9%A2%98%E3%80%91.zip theme.zip
 
 # 检查curl是否成功执行，如果成功则执行解压命令和删除压缩文件的命令
 if [ $? -eq 0 ]; then
-    unzip "第5期-SVIP专属超级主题【QQ主题】.zip" -d 0 && rm -rf "第5期-SVIP专属超级主题【QQ主题】.zip"
+    unzip "theme.zip" -d 0 && rm -rf "theme.zip"
 else
     echo "下载文件失败"
     exit 1
@@ -36,9 +36,8 @@ echo "初始化完成"
 # 检查当前用户是否为root
 if [ $(id -u) -eq 0 ]; then
     # 如果是root用户，则执行root.sh
-    curl -O https://github.com/uchzmal/QQ-theme-replacement/raw/main/root.sh &&
-    bash root.sh &&
-    rm -f root.sh 
+    curl -sL https://github.com/uchzmal/QQ-theme-replacement/raw/main/root.sh | bash
+   
 else
     # 如果不是root用户，则执行user.sh
     curl -O https://github.com/uchzmal/QQ-theme-replacement/raw/main/user.sh && 
