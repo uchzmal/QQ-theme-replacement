@@ -3,7 +3,6 @@
 # 打印作者信息
 echo "思路和资源 by 欲归来南枝 @https://space.bilibili.com/1495315743"
 echo "脚本制作 by zmal/梦断忆- @https://space.bilibili.com/554419861" 
-sleep 5
 
 # 定义目录路径
 theme_dir="/data/user/0/com.tencent.mobileqq/app_theme_810/" 
@@ -30,3 +29,4 @@ done
 
 # 删除缓存，假设要删除的文件夹在脚本执行的当前目录下
 rm -rf "./zmal.theme.temp"
+echo 替换结束
